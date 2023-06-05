@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.outer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.inner {
+  background-color: #150b3e;
+  border-radius: 10px;
+  color: white;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+}
+.balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
